@@ -1,0 +1,376 @@
+@font-face{
+  font-family: IsaisFont-Regular;
+  src:url(/styles/IsaisFont-Regular.ttf);
+}
+
+*{
+  /*font-family: IsaisFont-Regular;*/
+  font-family: 'Lobster two';
+  padding: 0;
+  margin: 0;
+}
+
+.container{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+  min-height: 100vh;
+  background: #ffdebc;
+}
+
+/*HEADER*/
+
+.header-container{
+  margin: 16px 0px;
+  padding: 14px;
+  font-size: 32px;
+}
+
+.header-container h1{
+  text-align: center;
+}
+
+/*SECTION*/
+
+.section-container{
+  margin-bottom: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.button{
+  margin: 15px;
+  padding: 20px 30px;
+  text-align: center;
+  border-radius: 12px;
+  font-size: 25px;
+  text-decoration: none;
+  color: #fff;
+  -webkit-text-stroke: 1px #000;
+  box-shadow: 0px 8px 10px rgba(0, 0, 0, 0.3);
+  transition: 0.5s;
+}
+
+.button:hover{
+  outline: 1px solid #e5e5e5;
+  box-shadow: 0px 8px 10px rgba(0, 0, 0, 0.5);
+}
+
+#color{
+  background: url("/img/color.jpg");
+  background-size: cover;
+}
+
+#comida{
+  background: url("/img/comida.jpg");
+  background-size: cover;
+}
+
+#bebida{
+  background: url("/img/bebida.jpg");
+  background-size: cover;
+}
+
+#lugar{
+  background: url("/img/lugar.jpg");
+  background-size: cover;
+}
+
+#princesa{
+  background: url("/img/princesa.jpg");
+  background-size: cover;
+}
+
+#pelicula{
+  background: url("/img/pelicula.jpg");
+  background-size: cover;
+}
+
+#cancion{
+  background: url("/img/cancion.jpg");
+  background-size: cover;
+}
+
+/*FOOTER*/
+
+.footer-container{
+  margin: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+}
+
+.carta{
+  padding: 20px 30px;
+  text-align: center;
+  border-radius: 12px;
+  font-size: 28px;
+  text-decoration: none;
+  background: #008CFF;
+  color: #fff;
+  -webkit-text-stroke: 1px #000;
+  box-shadow: 0px 8px 10px rgba(0, 0, 0, 0.3);
+  transition: 0.5s;
+}
+
+.carta:hover{
+  outline: 1px solid #e5e5e5;
+  box-shadow: 0px 8px 10px rgba(0, 0, 0, 0.5);
+}
+
+/*CONTAINER*/
+
+.general-container{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+#colorbg{
+  background-color: #bde0fe;
+}
+
+#comidabg{
+  background-color: #ffc8dd;
+}
+
+#bebidabg{
+  background-color: #ddb892;
+}
+
+#lugarbg{
+  background-color: #6a994e;
+}
+
+#princesabg{
+  background-color: #e5383b;
+}
+
+#peliculabg{
+  background-color: #02c39a;
+}
+
+#cancionbg{
+  background-color: #4895ef;
+}
+
+/*COLOR*/
+
+.box-images{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.box-images img{
+  margin: 30px;
+  height: 350px;
+  width: 350px;
+  object-fit: cover;
+  box-shadow: 0px 8px 10px rgba(0, 0, 0, 0.2);
+}
+
+.box-songs{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.box-songs a{
+  margin: 30px;
+  height: 350px;
+  width: 350px;
+  object-fit: cover;
+  box-shadow: 0px 8px 10px rgba(0, 0, 0, 0.2);
+}
+
+.box-songs a img{
+  height: 100%;
+  width: 100%;
+}
+
+.box-songs a:hover{
+  box-shadow: 0px 8px 10px rgba(0, 0, 0, 0.5);
+}
+
+#cielo{
+  border-radius: 60% 40% 55% 45% / 65% 60% 40% 35%;
+}
+
+#flores{
+  border-radius: 69% 31% 36% 64% / 54% 60% 40% 46%;
+}
+
+#helado{
+  border-radius: 51% 49% 36% 64% / 54% 47% 53% 46%;
+}
+
+#sueter{
+  border-radius: 44% 56% 48% 52% / 62% 64% 36% 38%;
+}
+
+#tenis{
+  border-radius: 66% 34% 72% 28% / 47% 51% 49% 53% ;
+}
+
+#tulipanes{
+  border-radius: 38% 62% 70% 30% / 47% 26% 74% 53% ;
+}
+
+/*COMIDA*/
+
+#fresas{
+  border-radius: 33% 67% 54% 46% / 57% 57% 43% 43%;
+}
+
+#chocolate{
+  border-radius: 47% 53% 29% 71% / 43% 57% 43% 57% ;
+}
+
+#cuchillo{
+  border-radius: 64% 36% 60% 40% / 47% 38% 62% 53% ;
+}
+
+#fyp{
+  border-radius: 44% 56% 39% 61% / 52% 53% 47% 48% ;
+}
+
+#paletas{
+  border-radius: 64% 36% 49% 51% / 38% 56% 44% 62%;
+}
+
+#vaso{
+  border-radius: 42% 58% 54% 46% / 40% 36% 64% 60%;
+}
+
+/*BEBIDA*/
+
+#chocob{
+  border-radius: 53% 47% 47% 53% / 35% 42% 58% 65%;
+}
+
+#chococ{
+  border-radius: 44% 56% 52% 48% / 40% 31% 69% 60%;
+}
+
+#chocom{
+  border-radius: 56% 44% 52% 48% / 68% 31% 69% 32%;
+}
+
+#chocon{
+  border-radius: 57% 43% 36% 64% / 58% 29% 71% 42%;
+}
+
+#chocor{
+  border-radius: 53% 47% 59% 41% / 72% 29% 71% 28%;
+}
+
+#chocow{
+  border-radius: 40% 60% 40% 60% / 58% 29% 71% 42%;
+}
+
+/*LUGAR*/
+
+#puente1{
+  border-radius: 56% 44% 40% 60% / 62% 52% 48% 38% ;
+}
+
+#puente2{
+  border-radius: 56% 44% 40% 60% / 28% 25% 75% 72% ;
+}
+
+#puente3{
+  border-radius: 64% 36% 40% 60% / 62% 39% 61% 38% ;
+}
+
+#puente4{
+  border-radius: 61% 39% 32% 68% / 68% 64% 36% 32% ;
+}
+
+#puente5{
+  border-radius: 47% 53% 51% 49% / 71% 68% 32% 29%;
+}
+
+#puente6{
+  border-radius: 51% 49% 46% 54% / 40% 46% 54% 60%;
+}
+
+/*PRINCESA*/
+
+#princesa1{
+  border-radius: 51% 49% 38% 62% / 66% 62% 38% 34%;
+}
+
+#princesa2{
+  border-radius: 51% 49% 32% 68% / 66% 33% 67% 34%;
+}
+
+#princesa3{
+  border-radius: 51% 49% 37% 63% / 42% 33% 67% 58%;
+}
+
+#princesa4{
+  border-radius: 63% 37% 37% 63% / 67% 33% 67% 33%;
+}
+
+#princesa5{
+  border-radius: 46% 54% 50% 50% / 60% 53% 47% 40%;
+}
+
+#princesa6{
+  border-radius: 35% 65% 57% 43% / 52% 57% 43% 48%;
+}
+
+/*PELICULA*/
+
+#ps1{
+  border-radius: 51% 49% 38% 62% / 52% 64% 36% 48% ;
+}
+
+#ps2{
+  border-radius: 55% 45% 45% 55% / 32% 38% 62% 68% ;
+}
+
+#ps3{
+  border-radius: 44% 56% 55% 45% / 50% 44% 56% 50%;
+}
+
+#ps4{
+  border-radius: 48% 52% 47% 53% / 42% 50% 50% 58%;
+}
+
+#ps5{
+  border-radius: 59% 41% 61% 39% / 49% 45% 55% 51%;
+}
+
+#ps6{
+  border-radius: 46% 54% 54% 46% / 44% 48% 52% 56%;
+}
+
+/*CANCION*/
+
+.wys{
+  border-radius: 42% 58% 65% 35% / 35% 40% 60% 65%;
+}
+
+.lvr{
+  border-radius: 28% 72% 38% 62% / 19% 25% 75% 81% ;
+}
+
+.tm{
+  border-radius: 34% 66% 67% 33% / 51% 38% 62% 49% ;
+}
+
+.oy{
+  border-radius: 28% 72% 39% 61% / 26% 31% 69% 74% ;
+}
